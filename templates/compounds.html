@@ -62,11 +62,19 @@
         <div class="image"
              style="display: flex;
                     justify-content: center;
-                    align-items: center">
+                    align-items: center;
+                    outline:none;
+                    border: none;
+                    box-shadow: none;
+                    background: transparent">
           <img src='{{ url_for("get_molecule_image") }}?smiles_query={{ smiles_query|urlencode }}'
                class="card-img-top w-100 overflow-hidden"
                style="width: 50%;
-                      height: 50%">
+                      height: 50%;
+                      outline:none;
+                      border: none;
+                      box-shadow: none;
+                      background: transparent">
         </div>
 
         <!-- Properties -->
