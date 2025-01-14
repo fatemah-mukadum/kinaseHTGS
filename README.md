@@ -1,3 +1,5 @@
+![IMG_3574](https://github.com/user-attachments/assets/0d58090a-4243-41e6-892f-c88079e77fb5)
+
 # Overview
 
 Using a SMILES string, this program will perform a minimal conformational search, compute 2D properties and compare against a ML trained model on solubility to determine if the molecule has high, low, or no solubility in water. 
